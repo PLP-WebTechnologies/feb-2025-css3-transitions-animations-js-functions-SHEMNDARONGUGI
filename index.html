@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Animation & LocalStorage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Customize Your Button</h1>
+
+  <button id="animateBtn" onclick="triggerAnimation()">Click Me</button>
+
+  <div class="color-picker">
+    <label for="color">Choose your favorite button color:</label>
+    <input type="color" id="color" onchange="saveColor()" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
